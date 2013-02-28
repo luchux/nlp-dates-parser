@@ -1,0 +1,171 @@
+{
+	"es":
+	{
+		"grammar":
+		{
+			"from":["entre","desde","comenzando","empezando","llegando","arrancando","llego","del"],
+			"to"  :["hasta","saliendo","terminando","partiendo","termino","al","a","y"],
+			"lapse" :["en","dentro de","los próximos"],
+			"separators":["de","del","-","/",":",",",";","."]			
+		},
+		"days":["lunes","martes","miércoles","jueves","viernes","sábado","domingo"],
+		"months":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre"],
+		"holidays":
+		{
+			"weekend":
+			{
+				"expr":["finde","fin de semana", "fin semana","final de semana"]
+			},
+			"christmas":
+			{
+				"expr":["navidad","navidades"],
+				"dates_begin":[12,24],
+				"dates_end":[12,26]				
+			},
+			"nyearseve":
+			{
+				"expr":["año nuevo","fin de año","finales del año"],
+				"dates_begin":[12,31],
+				"dates_end":[1,2]
+			},
+			"easter":
+			{
+				"expr":["semana santa"],
+				"dates_begin":[4,5],
+				"dates_end":[4,9]
+			},
+			"workday":
+			{
+				"expr":["día del trabajador","día del trabajo","primero de mayo","1ero de mayo", "puente del trabajador","puente del trabajo"],
+				"dates_begin":[4,27],
+				"dates_end":[5,1]
+			}
+			
+		},
+		"daypoint_offsets":
+		{
+			"today":
+			{
+				"expr" : ["hoy","ahora","ya","en este momento"],
+				"offset" : 0
+			},   
+			      	
+         	"yesterday"  :
+         	{
+				"expr" : ["ayer", "el día pasado"],
+				"offset" : -1
+			},   
+			    	         	
+         	"tomorrow"   :
+         	{
+				"expr" : ["mañana","después de hoy"],
+				"offset" : 1 
+			},         	
+         	
+         	"datomorrow" :
+         	{
+				"expr" : ["pasado","pasado mañana"],
+				"offset" : 2
+			}     	
+         	          		
+		},
+		"units":
+		{
+			"day" :
+         	{
+				"expr" : ["día","días"],
+				"offset" : 1
+			},
+			"month" :
+         	{
+				"expr" : ["mes","meses"],
+				"offset" : 33
+			},
+			"week" :
+         	{
+				"expr" : ["semanas","semana"],
+				"offset" : 7
+			}
+			
+		}     	
+	},
+	"en":	
+	{
+		"grammar":
+		{
+			"from":["from","arriving","starting","begining on","entering on","since"],
+			"to"  :["to","going out","leaving on","leaving","until","till","til"],
+			"lapse" :["in","in the next"],
+			"separators":["de","del","-","/",":",",",";","."]
+			
+			
+		},
+		"days":["monday","tuesday","wednesday","thursday","friday","saturday","sunday"],
+		"months":["january","febraury","march","april","may","june","july","august","september","october","december"],
+		"holidays":
+		{
+			"weekend":
+			{
+				"expr":["weekend","week end", "non workable days","no-workable days"]
+			},
+			"christmas":
+			{
+				"expr":["christmas"],
+				"dates_begin":[12,24],
+				"dates_end":[12,26]				
+			},
+			"nyearseve":
+			{
+				"expr":["new year", "new years eve"],
+				"dates_begin":[12,31],
+				"dates_end":[1,2]
+			}
+		},
+		"daypoint_offsets":
+		{
+			"today":
+			{
+				"expr" : ["today","now","right now"],
+				"offset" : 0
+			},   
+			      	
+         	"yesterday"  :
+         	{
+				"expr" : ["yesterday","last day"],
+				"offset" : -1
+			},   
+			    	         	
+         	"tomorrow"   :
+         	{
+				"expr" : ["tomorrow","day after today"],
+				"offset" : 1 
+			},         	
+         	
+         	"datomorrow" :
+         	{
+				"expr" : ["day after tomorrow"],
+				"offset" : 2
+			}     	
+         	          		
+		},
+		"units":
+		{
+			"day" :
+         	{
+				"expr" : ["day","days"],
+				"offset" : 1
+			},
+			"month" :
+         	{
+				"expr" : ["month","months"],
+				"offset" : 33
+			},
+			"week" :
+         	{
+				"expr" : ["week","weeks"],
+				"offset" : 7
+			}
+			
+		}     	
+	}
+}
