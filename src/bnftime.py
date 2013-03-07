@@ -1,5 +1,10 @@
 '''
     NLP_datetime_parser
+    
+    The base idea of this scripts, is extracted from 
+    http://pyparsing.wikispaces.com/UnderDevelopment#x-Time expression parser
+    examples in the pyparsing tool webpage. 
+    
     This scripts allows to parse range of dates from|until, expressed as 
     natural language phrases. It is extendible through a JSPON calendar,
     and is a prototype of for a future library. 
